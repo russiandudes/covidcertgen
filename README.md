@@ -6,6 +6,7 @@
   </a>
 </p>
 <hr />
+
 > Simple vaccination certificate generator
 
 ### ✨ [Demo](https://covidcertgen.pages.dev/)
