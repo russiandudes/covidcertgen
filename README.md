@@ -1,9 +1,6 @@
 <h1 align="center">RUSSIAN GOSUSLUGI COVID CERT GENERATOR</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.3.4-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/russiandudes/covidcertgen" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
   <a href="https://github.com/russiandudes/covidcertgen/blob/main/LICENSE" target="_blank">
     <img alt="License: LICENSE" src="https://img.shields.io/badge/License-LICENSE-yellow.svg" />
   </a>
