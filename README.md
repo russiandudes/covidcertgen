@@ -1,3 +1,3 @@
 # covidcertgen
 
-You can test it: https://russiandudes.github.io/
+You can test it: https://covidcertgen.pages.dev/
