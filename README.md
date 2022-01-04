@@ -1,3 +1,3 @@
 # covidcertgen
 
-GitHub IO Page: https://russiandudes.github.io/covidcertgen/cert-generator/
+You can test it: https://russiandudes.github.io/covidcertgen/cert-generator/
