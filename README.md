@@ -36,4 +36,3 @@ Copyright © 2022 [russian dudes](https://github.com/russiandudes).<br />
 This project is [LICENSE](https://github.com/russiandudes/covidcertgen/blob/main/LICENSE) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
