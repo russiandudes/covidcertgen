@@ -9,57 +9,50 @@ function generateCert()
 	var usBirthdayDate = document.getElementById("birthdaydate").value;
 	var usNationalPass = document.getElementById("nationalpass").value;
 
-  if(usCert.length <= 0) {
-    alert('Введите айди сертификата!');
-    return;
-  }
+    if(usCert.length <= 0) {
+      alert('Введите айди сертификата!');
+      return;
+    }
 
-  if(usNameRus.length <= 0) {
-    alert('Введите ФИО на русском!');
-    return;
-  }
+    if(usNameRus.length <= 0) {
+      alert('Введите ФИО на русском!');
+      return;
+    }
 
-  if(usNameEng.length <= 0) {
-    alert('Введите ФИО на английском!');
-    return;
-  }
+    if(usNameEng.length <= 0) {
+      alert('Введите ФИО на английском!');
+      return;
+    }
 
-  if(usValidUntilDate.length <= 0) {
-    alert('Введите дата окончания сертификата!');
-    return;
-  }
+    if(usValidUntilDate.length <= 0) {
+      alert('Введите дата окончания сертификата!');
+      return;
+    }
 
-  if(usBirthdayDate.length <= 0) {
-    alert('Введите дату рождения!');
-    return;
-  }
+    if(usBirthdayDate.length <= 0) {
+      alert('Введите дату рождения!');
+      return;
+    }
 
-  if(usNationalPass.length <= 0) {
-    alert('Введите паспортные данные!');
-    return;
-  }
+    if(usNationalPass.length <= 0) {
+      alert('Введите паспортные данные!');
+      return;
+    }
 
 	var finalResultLink = 'https://gosulslugi-covid-cert-status.nasukongalolo.workers.dev/?certid=' + usCert + '&name_ru=' + usNameRus + '&name_eng=' + usNameEng + '&validuntil=' + usValidUntilDate + '&birthday=' + usBirthdayDate + '&nationalpass=' + usNationalPass + '';
 
-  document.getElementById("qrcode").innerHTML = "";
-  qrCodeCert = new QRCode(document.getElementById("qrcode"), encodeURI(finalResultLink));
+    document.getElementById("qrcode").innerHTML = ""; // clear
+    qrCodeCert = new QRCode(document.getElementById("qrcode"), encodeURI(finalResultLink));
 
 	document.getElementById("qrinfo").innerHTML = "<p>Ваш QR Code:</p>"; 
 	document.getElementById("qroriglink").innerHTML = "<p>Прямая ссылка: <a href='" + finalResultLink + "'>" + finalResultLink + "</a></p>";
 }
 
 function randomIntFromInterval(min, max) { // min and max included 
-		return Math.floor(Math.random() * (max - min + 1) + min)
+	return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 function genCertId()
 {
-	document.getElementById("certid").value = "";
-	document.getElementById("certid").value += randomIntFromInterval(1111, 9999);
-	document.getElementById("certid").value += " ";
-	document.getElementById("certid").value += randomIntFromInterval(1111, 9999);
-	document.getElementById("certid").value += " ";
-	document.getElementById("certid").value += randomIntFromInterval(1111, 9999);
-	document.getElementById("certid").value += " ";
-	document.getElementById("certid").value += randomIntFromInterval(1111, 9999);
+	document.getElementById("certid").value = randomIntFromInterval(1234, 9123) + " " + randomIntFromInterval(2831, 9123) + " " + randomIntFromInterval(3211, 9123) + " " + randomIntFromInterval(4011, 9123);
 }
