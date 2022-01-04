@@ -24,7 +24,7 @@
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/russiandudes/covidcertgen/issues). You can also take a look at the [contributing guide](https://github.com/russiandudes/covidcertgen#readme).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/russiandudes/covidcertgen/issues).
 
 ## Show your support
 
