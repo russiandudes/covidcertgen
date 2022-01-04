@@ -11,15 +11,11 @@
 
 > Simple vaccination certificate generator
 
-### 🏠 [Homepage](https://covidcertgen.pages.dev/)
-
 ### ✨ [Demo](https://covidcertgen.pages.dev/)
 
 ## Author
 
 👤 **russian dudes**
-
-* Website: https://covidcertgen.pages.dev/
 * Github: [@russiandudes](https://github.com/russiandudes)
 
 ## 🤝 Contributing
