@@ -5,7 +5,7 @@
     <img alt="License: LICENSE" src="https://img.shields.io/badge/License-LICENSE-yellow.svg" />
   </a>
 </p>
-__
+<hr />
 > Simple vaccination certificate generator
 
 ### ✨ [Demo](https://covidcertgen.pages.dev/)
